@@ -3,13 +3,12 @@
     margin: 0%;
     box-sizing: border-box;
 }
-body{
-    background-color: blue;
-}
+
 .section1{
-    background-image: url(./assets/backgrounds/h_img.jpg);
+    background-image: url(../assets/backgrounds/h_img.jpg);
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
-    padding-top: 50%;
+    padding-top: 45%;
+    
 }
