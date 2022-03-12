@@ -69,6 +69,7 @@
 #h3{
     text-align: center;
     padding-top: 20px;
+    font-size: bold;
 }
 .containersection5{
    text-align: center;
@@ -132,4 +133,15 @@
 #copyright{
     text-align: center;
     padding-top: 15px;
+
 }
+#button1{
+    border: none;
+}
+#button2{
+    border: none;
+}
+#button3{
+    border: none;
+}
+
