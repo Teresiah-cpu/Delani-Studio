@@ -19,3 +19,10 @@ $(document).ready(function(){
 function myFunction(){
     alert("We have received your message.Thankyou for reaching out to us")
 }
+
+/*the snake gallery function will come here */
+
+$(".snake").snakeify({
+  speed: 200
+
+});
