@@ -80,3 +80,15 @@
 #img1{
     padding-left: 10px;
 }
+/*contact us section*/
+.section6{
+    background-image: url(../assets/backgrounds/c_image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    padding-bottom: 40%;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+}
