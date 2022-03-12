@@ -57,3 +57,16 @@
     padding-right: 10%;
     padding-left: 10%;
 }
+/*Ssection4*/
+.section4container{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20%;
+    margin-right: 15%;
+    padding-top: 30px;
+}
+#h3{
+    text-align: center;
+    padding-top: 20px;
+}
