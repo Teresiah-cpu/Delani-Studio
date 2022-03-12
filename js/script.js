@@ -15,3 +15,7 @@ $(document).ready(function(){
     $("#pproduct").toggle();
   });
 });
+/*the form function comes here*/
+function myFunction(){
+    alert("We have received your message.Thankyou for reaching out to us")
+}
