@@ -9,6 +9,24 @@
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
-    padding-top: 45%;
+    padding-top: 20%;
     
+}
+.container{
+    text-align: center;
+    color: white;    
+}
+#logo{
+    padding-bottom: 35px;
+}
+#h1{
+    padding-bottom: 35px;
+}
+
+#p1{
+    padding-bottom: 45px;
+    
+}
+#click{
+    padding-bottom: 30px;
 }
