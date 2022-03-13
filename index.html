@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="snake.min.js"> </script>
-    
     <script src="js/script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -89,75 +88,6 @@
         <img src="assets/portfolio/work6.jpg" alt="work6" width="250px" id="img1">
         <img src="assets/portfolio/work7.jpg" alt="work7" width="250px" id="img1">
         <img src="assets/portfolio/work8.jpg" alt="work8" width="250px" id="img1">
-
-
-
-
-
-
-
-
-
-
-
-        <!--<div class="box snake">
-            <img src="assets/portfolio/work4.jpg" alt="work4" width="250px">
-            <div class="overlay">
-                This is our first project
-            </div>
-        </div>
-
-            
-          <div class="box snake">
-                <img src="assets/portfolio/work3.jpg" alt="work3" width="250px" id="img1">
-                <div class="overlay">
-                    This is our first project
-                </div>
-          </div>
-
-            <div class="box snake">
-                <img src="assets/portfolio/work2.jpg" alt="work2" width="250px" id="img1">
-                <div class="overlay">
-                    This is our first project
-                </div>
-            </div>
-
-             <div class=" box snake">
-                <img src="assets/portfolio/work1.jpg" alt="work1" width="250px" id="img1">
-                <div class="overlay">
-                    This is our first project
-                </div>
-             </div>
-
-             <div class="box snake">
-                <img src="assets/portfolio/work5.jpg" alt="work5" width="250px">
-                <div class="overlay">
-                    This is our first project
-                </div>
-             </div>
-             <div class="snake">
-                <img src="assets/portfolio/work6.jpg" alt="work6" width="250px" id="img1">
-                <div class="overlay">
-                    This is our first project
-                </div>
-             </div>
-             <div class="box snake">
-                <img src="assets/portfolio/work7.jpg" alt="work7" width="250px" id="img1">
-                <div class="overlay">
-                    This is our first project
-                </div>
-             </div>
-
-             <div class="box snake">
-                <img src="assets/portfolio/work8.jpg" alt="work8" width="250px" id="img1">
-                <div class="overlay">
-                    This is our first project
-                </div>
-             </div>-->
-
-        
-
-
     </div>
     <div class="section6 container-fluid">
        
@@ -166,12 +96,16 @@
        <div class="container">
             <form name="message" id="form" onsubmit="myFunction()">
                 <h2>CONTACT US</h2>
-                <input type="text" id="name" name="yourname" placeholder="Name...">
-                <input type="email" id="email" name="youremail" placeholder="Email..."> <br> <br>
-            
-                <input type="text" id="message" name="yourmessage" placeholder="Your message here..."> 
-                <!--<input type="submit" id="sub" value="Submit">-->
-                <a href="assets/mailchimp.html" id="sub2">SUBMIT</a>
+                   <div class="first">
+                            <input type="text" id="names" name="yourname" placeholder="Name..." required> <br> <br>
+                            <input type="email" id="email" name="youremail" placeholder="Email..." required> <br> <br>
+
+                   </div>
+                <input type="text" id="message" name="yourmessage" placeholder="Your message here..." required>  <br> <br>
+                <input type="submit" id="sub1" value="Submit">
+                <input type="reset" id="sub1a" value="reset">
+
+                <a href="assets/mailchimp.html" id="sub2">SUBSCRIBE</a>
               
             </form>
        </div>

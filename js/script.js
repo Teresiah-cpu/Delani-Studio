@@ -15,9 +15,12 @@ $(document).ready(function(){
     $("#pproduct").toggle();
   });
 });
+
+
 /*the form function comes here*/
 function myFunction(){
-    alert("We have received your message.Thankyou for reaching out to us")
+   var names = document.getElementById('names').value;
+    alert('Thank you, ' + names + ', Your message has been received. ');
 }
 
 /*the snake gallery function will come here */
