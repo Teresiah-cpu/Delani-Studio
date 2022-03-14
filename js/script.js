@@ -18,9 +18,10 @@ $(document).ready(function(){
 
 
 /*the form function comes here*/
-function myFunction(){
+function myFunction(event){
    var names = document.getElementById('names').value;
     alert('Thank you, ' + names + ', Your message has been received. ');
+      event.preventDefault();
 }
 
 /*the snake gallery function will come here */
